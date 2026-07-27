@@ -1,0 +1,26 @@
+
+
+services:
+  web:
+    image: ecole229-tp1:phase1
+    restart: always
+    ports:
+      - 8006:80
+      
+  web1:
+    image: ecole229-tp1-projet1:phase2
+    restart: always
+    ports:
+      - 8007:80
+  web2:
+    image: ecole229-tp2-projet2:phase2
+    restart: always
+    ports:
+      - 8008:80
+  web3:
+    image: ecole229-tp3-projet3:phase2
+    restart: always
+    ports:
+      - 8009:80
+
+  
