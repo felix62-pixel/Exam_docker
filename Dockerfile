@@ -28,6 +28,11 @@ COPY --from=build /web/package3/dist/assets/ /usr/share/nginx/html/assets/
 COPY --from=build /web/package1/dist/assets/ /usr/share/nginx/html/assets/
 COPY --from=build /web/package2/dist/assets/ /usr/share/nginx/html/assets/
 
+COPY index1.html /usr/share/nginx/html/index.html
+COPY style1.css /usr/share/nginx/html
+
+
+
 EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+    text-align: center;
+}
+a{
+        text-decoration: none;
+        display: flex;
+        gap: 8px;
+        padding: 5px;
+        background-color: aqua;
+        color: black;
+    }

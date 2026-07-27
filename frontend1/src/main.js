@@ -1,5 +1,6 @@
 import './style.css'
 import javascriptLogo from './assets/javascript.svg'
+import sportgym from './assets/sportgym.jpeg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import { setupCounter } from './counter.js'
@@ -10,9 +11,11 @@ document.querySelector('#app').innerHTML = `
     <img src="${heroImg}" class="base" width="170" height="179">
     <img src="${javascriptLogo}" class="framework" alt="JavaScript logo"/>
     <img src="${viteLogo}" class="vite" alt="Vite logo" />
+    <img src="${sportgym}" class="vite" alt="Vite logo" />
   </div>
   <div>
-    <h1>Get started</h1>
+    <h1>Projet1: Le Sport</h1>
+    <p>Le sport est une activité physique encadrée par des règles, incluant le football, la course et la natation, qui se pratique en loisir ou en compétition</p>
     <p>Edit <code>src/main.js</code> and save to test <code>HMR</code></p>
   </div>
   <button id="counter" type="button" class="counter"></button>
